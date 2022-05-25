@@ -1,0 +1,100 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  width: 100%;
+  background-color: #c8d3d5e8;
+  box-sizing: border-box;
+}
+
+#login input[type="text"],
+#login input[type="password"] {
+  width: 20%;
+  padding: 7px 10px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+}
+
+#login input[type="submit"] {
+  background-color: #4caf50;
+  width: 8%;
+  font-weight: bold;
+  padding: 9px 5px;
+  margin: 10px 0px 0px 35px;
+  cursor: pointer;
+  border: none;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#login #submit:hover {
+  opacity: 0.8;
+}
+
+#login #userName,
+#login #passWord {
+  color: gray;
+}
+
+#login-wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 600;
+  height: 300px;
+  text-align: center;
+}
+
+/* Register form css */
+
+body {
+  margin: 100px;
+  text-align: center;
+}
+
+#reg_wrapper input[type="text"],
+#reg_wrapper input[type="password"],
+#reg_wrapper input[type="number"],
+#reg_wrapper input[type="email"] {
+  width: 20%;
+  margin: 8px 0;
+  padding: 7px 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#register {
+  background-color: #4caf50;
+  width: 10%;
+  font-weight: bold;
+  padding: 9px 5px;
+  margin: 5px 0;
+  cursor: pointer;
+  border: none;
+  color: #ffffff;
+  margin-left: 80px;
+}
+
+#register:hover {
+  opacity: 0.8;
+}
+
+#reg_wrapper #firstName,
+#reg_wrapper #lastName,
+#reg_wrapper #userName,
+#reg_wrapper #passWord,
+#reg_wrapper #email,
+#reg_wrapper #phone {
+  font-family: "Lato", sans-serif;
+  color: gray;
+}
+
+#reg_wrapper #email {
+  margin-left: 30px;
+}
